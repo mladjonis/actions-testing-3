@@ -11,6 +11,9 @@ inputs:
   dist-folder:
     description: The path to the dist dist-folder
     required: true
+outputs:
+  website-url:
+    description: The URL of the deployed website
 runs:
   using: 'node16'
   main: 'main.js'
